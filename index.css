@@ -1,5 +1,17 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
 
+/* this to have in mind
+
+- White Space
+- Color 
+- Contrast 
+- Scale
+- Alignment
+- Typography
+- Visual Hierarchy
+
+*/
+
 html,
 body {
   margin: 0;
@@ -48,4 +60,30 @@ nav li a {
   padding: 0.3em 0.7em;
   background-color: #e6e6e6;
   border-radius: 1em;
+}
+
+.hero-left {
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5em;
+  width: 80%;
+  margin: 1em auto;
+}
+
+.hero-left p {
+  font-size: 1.2em;
+  width: 80%;
+  margin: 1em auto;
+}
+
+a.cta-btn {
+  color: white;
+  background-color: #c500ff;
+  padding: 0.8em 1.5em;
+  border-radius: 2em;
+  font-weight: bold;
+  margin: 1em 0 3em;
+  display: inline-block;
 }
